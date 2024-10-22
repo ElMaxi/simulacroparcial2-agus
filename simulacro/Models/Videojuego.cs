@@ -11,17 +11,17 @@ namespace Tienda_de_Videojuegos.Models
     {
         public string Nombre { get; set; }
         public Plataformas Plataforma { get; private set; }
-        public double Precio { get; set; }
+        public decimal Precio { get; set; }
        public int CantidadUnidades { get; set; }
 
-        public Videojuego(string nombre, Plataformas plataforma, double precio, int cantidadUnidades)
+        public Videojuego(string nombre, Plataformas plataforma, decimal precio, int cantidadUnidades)
         {
             Nombre = nombre;
             Plataforma = plataforma;
             Precio = precio;
             CantidadUnidades = cantidadUnidades;
         }
-        public Videojuego(string nombre, string PlataformaNombre, int PlataformaNumero, double precio, int cantidadUnidades)
+        public Videojuego(string nombre, string PlataformaNombre, int PlataformaNumero, decimal precio, int cantidadUnidades)
         {
             Nombre = nombre;
             Plataforma.ToString(PlataformaNombre);
@@ -30,6 +30,10 @@ namespace Tienda_de_Videojuegos.Models
             CantidadUnidades = cantidadUnidades;
         }
 
+        public override string ToString()
+        {
+            return $"{Nombre}, {Plataforma}, {Precio}, {CantidadUnidades}";
+        }
 
     }
 }

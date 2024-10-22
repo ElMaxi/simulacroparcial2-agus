@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "hxt3wzaMkt/ZbQOWx9/I0MUx5sw0HQQo8vbliiLEXkcMqvpw+bVd/974bLNE6R0bVr9FK2nS1Oaj1dDhWzHjLA==",
+  "dgSpecHash": "YVlqkrFwRdk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ablopez\\source\\repos\\simulacro\\simulacro\\Tienda de Videojuegos.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "F:\\Descargas\\simulacroparcial2-agus-main\\simulacro\\Tienda de Videojuegos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gamer\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.33\\microsoft.windowsdesktop.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\Gamer\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.33\\microsoft.netcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\Gamer\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.33\\microsoft.aspnetcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\Gamer\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.33\\microsoft.netcore.app.host.win-x64.6.0.33.nupkg.sha512"
+  ],
   "logs": []
 }
